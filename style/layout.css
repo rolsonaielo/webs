@@ -7,13 +7,19 @@
 
 .block-center-row {
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    flex-direction: row;
+}
+.block-center-row1 {
+    display: flex;
+    justify-content:flex-start;
     flex-direction: row;
 }
 
+
 .row-full {
     width: 100vw;
-    position: relative;
+    position: absolute;
     left: 50%;
     right: 50%;
     margin-right: -50vw;
@@ -44,6 +50,9 @@
 
 .pad-2 {
     padding: 2em;
+}
+.pad-3 {
+    padding: 0.5em;
 }
 
 .separator-block {

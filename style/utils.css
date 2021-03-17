@@ -1,6 +1,6 @@
 /* fondos */
 .bg-dark {
-    background-color: #444;
+    background-color: rgb(44, 168, 96, 0.685) ;
 }
 
 .bg-light {
@@ -15,3 +15,10 @@
 .rounded {
     border-radius: 10px;
 }
+.caja{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: ivory;
+    display: flex;
+     
+    }
+
